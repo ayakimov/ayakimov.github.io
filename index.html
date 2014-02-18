@@ -1,7 +1,50 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Call me +7 910 892 28 43</h1>
-<p>Mr. President's page.</p>
-</body>
+<html ng-app>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Ayakimov.github.io : no time for explanations, publish it" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    
+    <script src="angular-1.0.7\angular.min.js"></script>
+
+    <title>Ayakimov.github.io</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <h1 id="project_title">Ayakimov.github.io</h1>
+          <h2 id="project_tagline">no time for explanations, publish it</h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="ayakimovgithubio" class="anchor" href="#ayakimovgithubio"><span class="octicon octicon-link"></span></a>ayakimov.github.io</h1>
+
+<p>no time for explanations, publish it</p>
+<p><input type="text" ng-model="yourName" placeholder="Enter a name here"></p>
+<hr>
+<h1>Hello {{yourName}}!</h1>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with Carl Sagan in mind</p>
+      </footer>
+    </div>
+
+    
+
+  </body>
 </html>
